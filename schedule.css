@@ -11,25 +11,26 @@ h1 {
   font-weight: bold;
 }
 
-th{
+.light{
   background-color: #624E62;
   color: #FBB76E
 }
 
-td {
+.dark {
   background-color: #FC5975;
   color: #FBB76E
 }
 
-th:hover{
+tr.light > td:hover{
   background-color: #935481;
   color: #fde7ce;
 }
 
-td:hover{
+tr.dark > td:hover{
   background-color: #FC856B;
   color: #fde7ce;
 }
+
 
 
 /* Color Palette adapted from: http://www.colourlovers.com/palette/4406614/Saling_to_the_Sunset?widths=1 */
